@@ -1,0 +1,13 @@
+﻿<Window x:Class="CharCountForArticy.CountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CharCountForArticy"
+        mc:Ignorable="d"
+        Background="{StaticResource FormBackgroundBrush}"
+        Title="Char count" WindowStyle="ToolWindow" Topmost="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="WidthAndHeight">
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Label x:Name="lblCount" Content="Label" Margin="10,10,10,10" Foreground="{StaticResource PrimaryTextBrush}" HorizontalAlignment="Left" Width="115"/>
+    </Grid>
+</Window>
